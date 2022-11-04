@@ -1,0 +1,63 @@
+.about-sction{
+    width: 100%;
+    background-color: #fff;
+}
+.reto__title{
+    font-size: 40px;
+    color: #b71c1c;
+    line-height: 1.5;
+}
+.about__title{
+    padding: 20px 0;
+}
+
+.about__subtext{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 3;
+}
+.about__text{
+    color: #747474;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0 40px 0;
+}
+.about__item{
+    max-width: 1200px;
+    display: flex;
+    grid-template-columns: 50% 50%;
+    gap: 3rem;
+    padding-bottom: 50px;
+    margin: 0;
+}
+.about__family{
+    font-size: 23px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 35px;
+}
+.careers{
+    width: 100%;
+    max-width: 100%;
+    background:#b71c1c;
+    padding: 20px 0;
+}
+.careers__box{
+    text-align: center;
+    color: #f6f6f6f6;
+    padding: 15px 0;
+}
+.careers__box p {
+    line-height:24px;
+    font-size:18px;
+    letter-spacing: 1;
+}
+.careers__box h2{
+    font-weight: 700;
+    line-height: 43px;
+    font-size: 32px;
+    letter-spacing: 2;
+    margin-bottom: 10px;
+}

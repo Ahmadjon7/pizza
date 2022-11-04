@@ -1,0 +1,46 @@
+.hero{
+    padding:50px 0 ;
+}
+.hero__box{
+    background: #fff;
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 35px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), 0 0 0 1px rgb(63 63 68 / 10%);
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #747474;
+}
+input{
+    height: 38px;
+    font-size: 16px;
+    color: #747474;
+}
+.hero__button{
+    width: 30%;
+    border: 2px solid #c62828;
+    color: #ffffff!important;
+    border-radius: 5px;
+    background: #c62828;
+    padding: 9px 20px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hero__button:hover{
+    opacity: 0.8;
+}
